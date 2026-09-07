@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software in research, please cite it using the metadata below."
+title: "Divine Whisper Ecosystem"
+type: software
+authors:
+  - family-names: "Read"
+    given-names: "Daniel Jacob"
+    name-suffix: "IV"
+    orcid: "https://orcid.org/0009-0000-6133-1872"
+  - family-names: "Horman"
+    given-names: "Shane Travis"
+abstract: >-
+  The canonical index for an experimental lineage of agent orchestration, memory-field, coherence, and safety prototypes.
+repository-code: "https://github.com/aruintelligence/divine-whisper-ecosystem"
+url: "https://aruintelligence.com/"
+license: MIT
