@@ -60,7 +60,13 @@ The next research gate is an independently defined task dataset with observable 
 
 The language across the lineage is both technical and symbolic. Terms such as *witness*, *remembrance*, *covenant*, and *coherence* name modeled states or design ideas. They should not be read as evidence that the software is conscious, metaphysically aware, or a validated general intelligence.
 
-Related browser and reflection experiments include the [Inward Mathematics interactive lab](https://github.com/aruintelligence/inward-mathematics-simulator) and [Kairos Echo's paired veto audit](https://github.com/aruintelligence/kairos-echo-reflection-tool).
+## Companion interactive lab
+
+[Open Inward Mathematics in the browser](https://aruintelligence.github.io/inward-mathematics-simulator/) · [Source and reproducibility notes](https://github.com/aruintelligence/inward-mathematics-simulator)
+
+The lab compares mean and median on five generated values, sweeps 101 fifth-observer settings, and repeats that sweep over 128 deterministic seeds. With start seed 42 and the fifth estimate at 50, the mean has lower average absolute error (about 1.43 versus 1.56), although the median has lower error in 75 of 128 individual generated cases. The two summaries answer different questions. This is a toy cohort, not external validation of a reasoning or safety system. Run `node tests/lab.test.cjs` in that repository to reproduce its model checks.
+
+Related reflection work includes [Kairos Echo's paired veto audit](https://github.com/aruintelligence/kairos-echo-reflection-tool).
 
 ## Authors
 
