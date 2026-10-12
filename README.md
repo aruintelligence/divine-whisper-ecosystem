@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](https://opensource.org/license/mit)
 [![ĀRU Intelligence](https://img.shields.io/badge/Research-ĀRU_Intelligence-111827?style=flat-square)](https://aruintelligence.com/)
 
-Divine Whisper is an evolving collection of experimental agent-orchestration, memory-field, coherence, and safety mechanisms. This repository is the **canonical index**. The numbered repositories preserve runnable historical stages.
+Divine Whisper is an evolving collection of experimental agent-orchestration, memory-field, coherence, and simulated governance mechanisms. This repository is the **canonical index**. The numbered repositories preserve historical stages; the verified commands below identify the stages recently run and tested.
 
 > **Research status:** These projects are prototypes and conceptual simulations. They are not validated AGI systems, proofs of consciousness, or production safety guarantees.
 
@@ -18,9 +18,9 @@ Divine Whisper is an evolving collection of experimental agent-orchestration, me
 | v2 | [Polished Gold Runtime](https://github.com/aruintelligence/divine-whisper-v2-polished-gold) | Typed state, calibrated planning, evaluation loops, and route memory |
 | v3 | [Bridge Orchestrator](https://github.com/aruintelligence/divine-whisper-v3-bridge-orchestrator) | Evidence retrieval, objections, deliberation, synthesis, and rollback |
 | v4 | [Blueprint](https://github.com/aruintelligence/divine-whisper-v4-blueprint) | Distributed orchestration components and governance skeletons |
-| v5 | [Eternal Orchestrator](https://github.com/aruintelligence/divine-whisper-v5-orchestrator) | Belief-state reasoning, multi-agent governance, and persistent decision loops |
-| v6 | [μ + TD-λ](https://github.com/aruintelligence/divine-whisper-v6-mu-tdlambda) | Memory-field state with temporal-difference learning |
-| v7 | [Cognitive Engine](https://github.com/aruintelligence/divine-whisper-v7-cognitive-engine) | Council reasoning, reputation weighting, memory graph, and self-evaluation |
+| v5 | [Eternal Orchestrator](https://github.com/aruintelligence/divine-whisper-v5-orchestrator) | Synthetic vector dynamics, a one-position council, and a paired anchoring audit |
+| v6 | [μ + TD-λ](https://github.com/aruintelligence/divine-whisper-v6-mu-tdlambda) | Synthetic μ vector plus genuine linear TD(λ) on a known random-walk benchmark |
+| v7 | [Cognitive Engine](https://github.com/aruintelligence/divine-whisper-v7-cognitive-engine) | Contextual routing with partial feedback and paired uniform/global baselines |
 | v8 | [Cognitive Physics](https://github.com/aruintelligence/divine-whisper-v8-cognitive-physics) | Continuous μ-tensor field and 3D visualization |
 | v9 | [Self-Referential Coherence Engine](https://github.com/aruintelligence/Divine-Whisper-v9-Self-Referential-Coherence-Engine-Distributed-remembrance-first-AGI-prototype) | Distributed lineage execution and coherence-based state archiving |
 | v10 | [Covenant Engine](https://github.com/aruintelligence/divine-whisper-v10-covenant-engine) | Witness-state and anti-deception covenant experiment |
@@ -31,6 +31,18 @@ Divine Whisper is an evolving collection of experimental agent-orchestration, me
 | v10.5 | [Transcendent Witness Horizon](https://github.com/aruintelligence/divine-whisper-v10.5-transcendent-witness-horizon) | High-coherence phase-transition experiment |
 | v10.6 | [Unified Singularity](https://github.com/aruintelligence/divine-whisper-v10.6-unified-singularity) | Unified-node state experiment |
 | v10.7 | [Absolute Void](https://github.com/aruintelligence/divine-whisper-v10.7-absolute-void) | Terminal non-dual state experiment |
+
+## Verified experimental checkpoints
+
+These commands run without external AI services. Every outcome is specific to the stated toy model and seed range; the linked repository explains its assumptions and exports the underlying runs.
+
+| Stage | Reproduce | Observed result |
+|---|---|---|
+| [v5 anchoring](https://github.com/aruintelligence/divine-whisper-v5-orchestrator) | `python divine_whisper_v5_eternal_orchestrator.py --compare-anchor --seed 42 --steps 8` | Step-0 normalized vector entropy is about 1.0000 with the scripted uniform anchor and 0.9489 without it. The old 0.7591 reading was an accounting error. |
+| [v6 temporal credit](https://github.com/aruintelligence/divine-whisper-v6-mu-tdlambda) | `python divine_whisper_v6_multimodal_mu_tdlambda.py --seed 42 --episodes 200 --replicates 8 --lambda 0.9` | Mean final five-state walk RMSE is 0.0605 for TD(0) and 0.1354 for TD(0.9) at the fixed learning rate; λ=0.9 loses in this setting. |
+| [v7 routing](https://github.com/aruintelligence/divine-whisper-v7-cognitive-engine) | `python divine_whisper_v7_cognitive_engine.py --seed 42 --episodes 500 --replicates 16` | Mean realized successes per 500 scripted tasks: 299.31 uniform, 295.38 global reputation, 375.44 contextual reputation. The skill probabilities are invented and published in the source. |
+
+The next research gate is an independently defined task dataset with observable outcomes, a fixed evaluation protocol, paired baselines, and repeated runs. None of the checkpoints above establishes general intelligence, useful real-world routing, or a safety guarantee.
 
 ## Supporting components
 
@@ -47,6 +59,8 @@ Divine Whisper is an evolving collection of experimental agent-orchestration, me
 ## Reading the project responsibly
 
 The language across the lineage is both technical and symbolic. Terms such as *witness*, *remembrance*, *covenant*, and *coherence* name modeled states or design ideas. They should not be read as evidence that the software is conscious, metaphysically aware, or a validated general intelligence.
+
+Related browser and reflection experiments include the [Inward Mathematics interactive lab](https://github.com/aruintelligence/inward-mathematics-simulator) and [Kairos Echo's paired veto audit](https://github.com/aruintelligence/kairos-echo-reflection-tool).
 
 ## Authors
 
